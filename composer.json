@@ -1,24 +1,25 @@
 {
-    "name": "novam-modules/calendar",
-    "description": "Calendar package for Laravel Modular projects",
-    "type": "library",
-    "license": "MIT",
+    "name": "thehilkiah/calendar",
+    "description": "",
     "authors": [
         {
             "name": "Hilkiah Makemo",
             "email": "hilmak01@gmail.com"
         }
     ],
-    "require-dev": {
-        "nwidart/laravel-modules": "^3.3"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Admin\\Calendar\\Providers\\CalendarServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
     },
-    "scripts": {
-        "post-install-cmd": [
-            "@php -r \"chdir('../../../');\"",
-            "@php \"php artisan module:make projects;\""
-        ],
-        "post-update-cmd": [
-            "@post-install-cmd"
-        ]
+    "autoload": {
+        "psr-4": {
+            "Admin\\Calendar\\": ""
+        }
     }
 }
