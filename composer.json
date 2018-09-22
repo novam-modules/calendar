@@ -7,13 +7,16 @@
             "email": "hilmak01@gmail.com"
         }
     ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "Admin\\Calendar\\Providers\\CalendarServiceProvider"
             ],
             "aliases": {
-                
+
             }
         }
     },
