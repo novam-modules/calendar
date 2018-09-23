@@ -1,0 +1,2 @@
+import FullCalendar from 'vue-full-calendar'
+Vue.use(FullCalendar)
