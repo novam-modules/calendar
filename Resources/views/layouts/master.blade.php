@@ -3,7 +3,7 @@
     <title>Calendar {{ isset($title)? " :: $title": '' }}</title>
 @endsection
 @section('styles')
-{{-- <link rel="stylesheet" href="{{ mix('css/calendar.css') }}"> --}}
+<link rel="stylesheet" href="{{ mix('css/calendar.css') }}">
 @endsection
 @section('layout')
 <div id="calendar" class="calendar">
@@ -11,5 +11,5 @@
 </div>
 @endsection
 @section('scripts')
-{{-- <script src="{{ mix('js/calendar.js') }}"></script> --}}
+<script src="{{ mix('js/calendar.js') }}"></script>
 @endsection
