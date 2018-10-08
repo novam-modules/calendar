@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin\Calendar\Providers;
+namespace Modules\Calendar\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
@@ -35,7 +35,7 @@ class CalendarServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->register(RouteServiceProvider::class);
     }
 
     /**
@@ -91,7 +91,7 @@ class CalendarServiceProvider extends ServiceProvider
 
     /**
      * Register an additional directory of factories.
-     * 
+     *
      * @return void
      */
     public function registerFactories()

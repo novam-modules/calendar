@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin\Calendar\Database\Seeders;
+namespace Module\Calendar\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;

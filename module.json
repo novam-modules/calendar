@@ -6,11 +6,11 @@
     "active": 1,
     "order": 0,
     "providers": [
-        "Admin\\Calendar\\Providers\\CalendarServiceProvider"
+        "Modules\\Calendar\\Providers\\CalendarServiceProvider"
     ],
     "aliases": {},
     "files": [
-        "start.php"
+
     ],
     "requires": []
 }
