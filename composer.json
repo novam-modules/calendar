@@ -1,0 +1,25 @@
+{
+    "name": "novam-modules/calendar",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hilkiah Makemo",
+            "email": "hilmak01@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Calendar\\Providers\\CalendarServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Calendar\\": ""
+        }
+    }
+}
