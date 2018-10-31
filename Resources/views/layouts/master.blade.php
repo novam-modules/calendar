@@ -1,15 +1,14 @@
-@extends('layouts.admin')
-@section('head')
-    <title>Calendar {{ isset($title)? " :: $title": '' }}</title>
-@endsection
+@extends('layouts.master')
 @section('styles')
+@parent
 <link rel="stylesheet" href="{{ mix('css/calendar.css') }}">
 @endsection
 @section('layout')
-<div id="calendar" class="calendar">
-    @yield('content')
-</div>
+    <main id="calendar">
+        @yield('content')
+    </main>
 @endsection
 @section('scripts')
+@parent
 <script src="{{ mix('js/calendar.js') }}"></script>
 @endsection

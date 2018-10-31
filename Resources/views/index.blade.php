@@ -1,7 +1,9 @@
 @extends('calendar::layouts.master')
 
 @section('content')
-    <h1>Basic Calendar</h1>
-    <basic-calendar></basic-calendar>
+    <h1>Hello World</h1>
 
-@endsection
+    <p>
+        This view is loaded from module: {!! config('calendar.name') !!}
+    </p>
+@stop

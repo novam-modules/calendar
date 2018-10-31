@@ -9,8 +9,6 @@
         "Modules\\Calendar\\Providers\\CalendarServiceProvider"
     ],
     "aliases": {},
-    "files": [
-
-    ],
+    "files": [],
     "requires": []
 }
