@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Module\Calendar\Http\Controllers';
+    protected $namespace = 'Modules\Calendar\Http\Controllers';
 
     /**
      * Called before routes are registered.

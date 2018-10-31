@@ -13,7 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Admin\\Calendar\\Providers\\CalendarServiceProvider"
+                "Modules\\Calendar\\Providers\\CalendarServiceProvider"
             ],
             "aliases": {
 
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Admin\\Calendar\\": ""
+            "Modules\\Calendar\\": ""
         }
     }
 }
