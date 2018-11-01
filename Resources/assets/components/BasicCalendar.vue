@@ -55,7 +55,6 @@ export default {
 
         },
         drop(ev, oth){
-            console.log(ev, oth);
         }
     }
 }

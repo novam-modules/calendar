@@ -4,9 +4,14 @@
 <link rel="stylesheet" href="{{ mix('css/calendar.css') }}">
 @endsection
 @section('layout')
-    <main id="calendar">
+    <header class="page-header">
+        <div class="container-fluid">
+            <h2 class="no-margin-bottom">Calendar {{ $title ?? '' }}</h2>
+        </div>
+    </header>
+    <section id="calendar">
         @yield('content')
-    </main>
+    </section>
 @endsection
 @section('scripts')
 @parent
